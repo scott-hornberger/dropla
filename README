@@ -32,7 +32,7 @@ To start working with this project you'll need: *
 
 *all the extra libraries you'll need to make this project function can be downloaded straight from the IDEs of arduino and Processing
 
-You'll also need to build your own controller. I will try to learn how to make board diagrams, and upload them for some guidance. 
+You'll also need to build your own controller. I will try to learn how to make board diagrams, and upload them for some guidance. My controller has 6 potentiometers and 12 button (non toggling).
 
 
 
