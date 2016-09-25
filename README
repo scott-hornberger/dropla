@@ -1,4 +1,4 @@
-This is a dully functioning a musical interactive art piece / sandbox open play game. 
+This is a fully functioning a musical interactive art piece / sandbox open play game. 
 
 The concept: 
     Balls fall from a "vent" in the sky and fall downward, colliding with anything in their paths (like each other, the two bumpers, and the walls) until they fall into one of seven "buckets" on the ground. Each bucket correlates to a musical note. As a ball falls into the bucket, a note is played. The notes are chosen so that even no disharmonia is made by playing all of them at once. The vent, the bumers, and the rate and timing at which the balls drop are controlled by the participants through interaction with the arduino controller.
