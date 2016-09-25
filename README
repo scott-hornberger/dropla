@@ -1,0 +1,35 @@
+This is the first iteration of my design for a musical interactive art piece / sandbox open play game.
+
+The concept: 
+    Balls fall from a "vent" in the sky and fall downward, colliding with anything in their paths (like each other, the two bumpers, and the walls) until they fall into one of seven "buckets" on the ground. Each bucket correlates to a musical note. As a ball falls into the bucket, a note is played. The notes are chosen so that even no disharmonia is made by playing all of them at once. The vent, the bumers, and the rate and timing at which the balls drop are controlled by the participants through interaction with the arduino controller.
+
+The objects:
+    - Vent
+        - this vent may be moved left and right
+        - may be resized wider and thinner by participants using the controller
+        - there are four spaces from within this vent that balls fall from
+    - Balls
+        - are 2d objects that interact with their world
+        - that bounce off each other, the bumpers, and the walls
+        - until they finally land in the buckets at the bottom
+    - Bumpers
+        - can move on the x and y axis and rotate around their centers
+    - Buckets
+        - 7 stationary buckets
+        - each correlated to a note that is played when a balls falls through them
+        - note is activated by sending an OSC signal to SuperCollider
+
+Complexity:
+    There are a lot of moving parts in this piece. The arduino talks to processing, Processing talks to supercollider. 
+To start working with this project you'll need: *
+    - Arduino (board & software)
+        - plus its serial communication library
+    - Processing 3
+        - plus its serial communication library
+        - plus the openbox2d physics engine library
+        - plus the OSC communication library
+    - SuperCollider (an environment and programming language for real-time audio synthesis)
+
+*all the extra libraries you'll need to make this project function can be downloaded straight from the IDEs of arduino and Processing
+
+You'll also need to build your own controller. I will try to learn how to make board diagrams, and upload them for some guidance. 
