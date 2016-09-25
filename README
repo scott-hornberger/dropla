@@ -1,4 +1,4 @@
-This is the first iteration of my design for a musical interactive art piece / sandbox open play game.
+This is a dully functioning a musical interactive art piece / sandbox open play game. 
 
 The concept: 
     Balls fall from a "vent" in the sky and fall downward, colliding with anything in their paths (like each other, the two bumpers, and the walls) until they fall into one of seven "buckets" on the ground. Each bucket correlates to a musical note. As a ball falls into the bucket, a note is played. The notes are chosen so that even no disharmonia is made by playing all of them at once. The vent, the bumers, and the rate and timing at which the balls drop are controlled by the participants through interaction with the arduino controller.
@@ -33,3 +33,7 @@ To start working with this project you'll need: *
 *all the extra libraries you'll need to make this project function can be downloaded straight from the IDEs of arduino and Processing
 
 You'll also need to build your own controller. I will try to learn how to make board diagrams, and upload them for some guidance. 
+
+
+
+Although this is fully functional, I'm not content with it. When school and work slow down again, I will add more buttons to the controller and features to the piece -- eg more real-time waveform manipulation and filter adjustments.
